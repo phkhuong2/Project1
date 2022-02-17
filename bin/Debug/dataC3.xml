@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataC0>
+  <dataC0>
+    <loaidai>Hình thang thu?ng</loaidai>
+    <kyhieudai>Б    </kyhieudai>
+    <b_t>14</b_t>
+    <b_belt>17</b_belt>
+    <h>10</h>
+    <y0>44</y0>
+    <area>138</area>
+    <d1_bound>140-280</d1_bound>
+    <l_bound>800-6300</l_bound>
+    <l0>1500</l0>
+    <t_shaft>0</t_shaft>
+    <n_shaft>0</n_shaft>
+    <d1>268,7 : 330,6</d1>
+    <d1_modify>160</d1_modify>
+    <v>24,5338666666667</v>
+    <u_shaft>0</u_shaft>
+    <epxilon>0,01</epxilon>
+    <d2>498,96</d2>
+    <d2_modify>500</d2_modify>
+    <a_d2>0,9922</a_d2>
+    <a_pre>495,068112</a_pre>
+    <a_bound>363&lt;= a &lt;=1320</a_bound>
+    <l_pre>2082,72265348332</l_pre>
+    <a>495,068112</a>
+    <l>2000</l>
+    <alpha1_angle>140,973612455169</alpha1_angle>
+    <z>4</z>
+    <p_dc>0</p_dc>
+    <p0>5,88</p0>
+    <k_d>1,35</k_d>
+    <c_alpha>0,88</c_alpha>
+    <c_l>0,97</c_l>
+    <c_u>1,14</c_u>
+    <c_z>0,95</c_z>
+    <t>0</t>
+    <e>0</e>
+    <h0>0</h0>
+    <b_belt_whee>0</b_belt_whee>
+    <d_a1>160</d_a1>
+    <d_a2>498,96</d_a2>
+    <q_m>0,178</q_m>
+    <f_v>107,140089223964</f_v>
+    <f_o>285,492167279188</f_o>
+    <f_r>2152,28226887</f_r>
+  </dataC0>
+</dataC0>

@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3D2B62B-37BF-4FB6-A19C-DAD60B13EAEE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>luan_van1</RootNamespace>
+    <AssemblyName>luan_van1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SolidWorks.Interop.sldworks">
+      <HintPath>..\..\..\..\..\..\..\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.sldworks.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swconst">
+      <HintPath>..\..\..\..\..\..\..\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.swconst.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Belt_Drive.cs" />
+    <Compile Include="Class\Bevel_Gear.cs" />
+    <Compile Include="Class\create_data.cs" />
+    <Compile Include="Class\dongco_tst.cs" />
+    <Compile Include="Class\Gear.cs" />
+    <Compile Include="Class\GetSolidworks.cs" />
+    <Compile Include="Class\PartModel.cs" />
+    <Compile Include="Class\Worm_Gear.cs" />
+    <Compile Include="input5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="input5.Designer.cs">
+      <DependentUpon>input5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="input6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="input6.Designer.cs">
+      <DependentUpon>input6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="input7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="input7.Designer.cs">
+      <DependentUpon>input7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="input8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="input8.Designer.cs">
+      <DependentUpon>input8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="selectCapChinhXac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectCapChinhXac.Designer.cs">
+      <DependentUpon>selectCapChinhXac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectLoaiDai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectLoaiDai.Designer.cs">
+      <DependentUpon>selectLoaiDai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectLoaiTruyenDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectLoaiTruyenDong.Designer.cs">
+      <DependentUpon>selectLoaiTruyenDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectLoaiTruyenDong2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectLoaiTruyenDong2.Designer.cs">
+      <DependentUpon>selectLoaiTruyenDong2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectSigmaH_sigmaF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectSigmaH_sigmaF.Designer.cs">
+      <DependentUpon>selectSigmaH_sigmaF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectViTriAnKhop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectViTriAnKhop.Designer.cs">
+      <DependentUpon>selectViTriAnKhop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectKa_Kd_ZM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectKa_Kd_ZM.Designer.cs">
+      <DependentUpon>selectKa_Kd_ZM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="input1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="input1.Designer.cs">
+      <DependentUpon>input1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="input2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="input2.Designer.cs">
+      <DependentUpon>input2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="input3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="input3.Designer.cs">
+      <DependentUpon>input3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="input4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="input4.Designer.cs">
+      <DependentUpon>input4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LuanVanDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LuanVanDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="output1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="output1.Designer.cs">
+      <DependentUpon>output1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selectDC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectDC.Designer.cs">
+      <DependentUpon>selectDC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectVL_BR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectVL_BR.Designer.cs">
+      <DependentUpon>selectVL_BR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trangchu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trangchu.Designer.cs">
+      <DependentUpon>trangchu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="input5.resx">
+      <DependentUpon>input5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="input6.resx">
+      <DependentUpon>input6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="input7.resx">
+      <DependentUpon>input7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="input8.resx">
+      <DependentUpon>input8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectCapChinhXac.resx">
+      <DependentUpon>selectCapChinhXac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectLoaiDai.resx">
+      <DependentUpon>selectLoaiDai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectLoaiTruyenDong.resx">
+      <DependentUpon>selectLoaiTruyenDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectLoaiTruyenDong2.resx">
+      <DependentUpon>selectLoaiTruyenDong2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectSigmaH_sigmaF.resx">
+      <DependentUpon>selectSigmaH_sigmaF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectViTriAnKhop.resx">
+      <DependentUpon>selectViTriAnKhop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectKa_Kd_ZM.resx">
+      <DependentUpon>selectKa_Kd_ZM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="input1.resx">
+      <DependentUpon>input1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="input2.resx">
+      <DependentUpon>input2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="input3.resx">
+      <DependentUpon>input3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="input4.resx">
+      <DependentUpon>input4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="output1.resx">
+      <DependentUpon>output1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectDC.resx">
+      <DependentUpon>selectDC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectVL_BR.resx">
+      <DependentUpon>selectVL_BR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trangchu.resx">
+      <DependentUpon>trangchu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="LuanVanDataSet.xsc">
+      <DependentUpon>LuanVanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LuanVanDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LuanVanDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LuanVanDataSet.xss">
+      <DependentUpon>LuanVanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dataC1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dataC2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dataC3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dataC4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\dataC3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\LuanVan.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\LuanVan_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>LuanVan.mdf</DependentUpon>
+    </Content>
+    <Content Include="Image\1.png" />
+    <Content Include="Image\10.png" />
+    <Content Include="Image\11.png" />
+    <Content Include="Image\12.png" />
+    <Content Include="Image\2.png" />
+    <Content Include="Image\3.png" />
+    <Content Include="Image\4.png" />
+    <Content Include="Image\5.png" />
+    <Content Include="Image\6.png" />
+    <Content Include="Image\7.png" />
+    <Content Include="Image\8.png" />
+    <Content Include="Image\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

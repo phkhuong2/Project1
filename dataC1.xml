@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataC1>
+  <d_F>23000</d_F>
+  <d_v>0,5</d_v>
+  <d_z>11</d_z>
+  <d_Pxt>120</d_Pxt>
+  <d_L>432</d_L>
+  <d_t1>20</d_t1>
+  <d_t2>15</d_t2>
+  <d_T1>1</d_T1>
+  <d_T2>0,6</d_T2>
+  <d_P_lv>11,5</d_P_lv>
+  <d_P_td>9,79671956757538</d_P_td>
+  <d_hsuat>0,686</d_hsuat>
+  <d_P_ct>14,2809323142498</d_P_ct>
+  <d_N_lv>22,7272727272727</d_N_lv>
+  <d_U_sb>129</d_U_sb>
+  <d_N_sb>2931,81818181818</d_N_sb>
+  <d_N_dc>2930</d_N_dc>
+  <d_P_dc>15</d_P_dc>
+  <d_u_d>3,15</d_u_d>
+  <d_u_1>10</d_u_1>
+  <d_u_2>3</d_u_2>
+  <d_hsuat_1>0,95</d_hsuat_1>
+  <d_hsuat_2>0,96</d_hsuat_2>
+  <d_hsuat_3>0,87</d_hsuat_3>
+  <d_hsuat_4>0,9</d_hsuat_4>
+  <d_hsuat_5>0,99</d_hsuat_5>
+  <d_hsuat_6>1</d_hsuat_6>
+  <d_P_truc1>13,431216841552</d_P_truc1>
+  <d_P_truc2>12,765028486211</d_P_truc2>
+  <d_P_truc3>12,1318830732949</d_P_truc3>
+  <d_N_truc1>930,15873015873</d_N_truc1>
+  <d_N_truc2>93,015873015873</d_N_truc2>
+  <d_N_truc3>31,005291005291</d_N_truc3>
+  <d_T_dc>48890,7849829352</d_T_dc>
+  <d_T_truc1>137899,174278494</d_T_truc1>
+  <d_T_truc2>1310593,7523428</d_T_truc2>
+  <d_T_truc3>3736764,9066798</d_T_truc3>
+  <d_d_per_y>300</d_d_per_y>
+  <d_shift>2</d_shift>
+  <d_working_hours>1</d_working_hours>
+  <d_Ti_Tmax_engine>2,2</d_Ti_Tmax_engine>
+</dataC1>
